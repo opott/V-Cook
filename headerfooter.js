@@ -1,6 +1,6 @@
 class DynHeader extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `
+  connectedCallback() {
+    this.innerHTML = `
           <link rel="stylesheet" href="/styles.css">
           <header>
           <h1>V-Cook</h1>
@@ -11,12 +11,12 @@ class DynHeader extends HTMLElement {
           </nav>
           </header>
           `;
-    }
   }
-  
-  class DynFooter extends HTMLElement {
-    connectedCallback() {
-      this.innerHTML = `
+}
+
+class DynFooter extends HTMLElement {
+  connectedCallback() {
+    this.innerHTML = `
           <link rel="stylesheet" href="/styles.css">
           <footer>
             <nav>
@@ -28,8 +28,8 @@ class DynHeader extends HTMLElement {
               <p>&copy; 2024 Oliver Potter. All rights reserved.</p>
           </footer>
           `;
-    }
   }
-  
-  customElements.define("dyn-header", DynHeader);
-  customElements.define("dyn-footer", DynFooter);
+}
+
+customElements.define("dyn-header", DynHeader);
+customElements.define("dyn-footer", DynFooter);
