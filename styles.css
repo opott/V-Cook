@@ -99,12 +99,6 @@ nav ul li a {
   margin-bottom: 20px;
 }
 
-.giscus-frame {
-  max-width: 70vw;
-  margin: 0 auto;
-  display: block;
-}
-
 @media screen and (max-width: 768px) {
   .recipelist {
     grid-template-columns: repeat(2, 1fr);
